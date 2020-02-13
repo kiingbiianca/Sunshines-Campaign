@@ -1,0 +1,96 @@
+<!DOCTYPE html> <html><head>
+    <title>Sunshine's Campaign</title>
+<style>body{
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+#donate h2 {text-shadow: 2px 2px #FFFFFF;}
+
+#eagles h2 {text-shadow: 2px 2px #ff0000;}
+p {
+    font-size: 20px;
+}
+    
+#header, #donate, #eagles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px ;
+}
+
+#header {
+    color: white;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhRCJvc9hBNMODKujcENr1HQOvN4icmE6Qdvc7cubKe7Q9ibCX&s");
+}
+
+#donate {
+    background: yellow;
+}
+#eagles {
+    background: yellow;
+    color:black;
+}
+
+#pics img{
+    width: 20%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+#pics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+#pics img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#donate button {
+    width: 600px;   
+    height: 50px;
+    font-size: 20px;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    border: solid white 3px;
+}
+
+#donate button:hover {
+    background:black;
+    color: yellow;
+}</style></head>
+<body>
+    <div id="header">
+        <h1>Golden Retriever</h1>
+        <p>My Name Is Sunshine</p>
+    </div>
+    <div id="donate">
+        <h2>Donate Now</h2>
+        <p>Invest $1 billion into New York Pet Fashion Show!</p>
+        <button>Donate</button>
+    </div>
+    <div id="pics">
+        <img src="https://cdn.pixabay.com/photo/2019/03/22/14/04/golden-retriever-4073350_960_720.jpg">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYhFsj6Qgj2zumPbx1PUpWiESZ1SWkAJKwOeL5ksp62iSju9dWSg&amp;s">
+        <img src="https://cdn.pixabay.com/photo/2017/07/10/18/55/dog-2491056_960_720.jpg">
+    </div>
+    <div id="eagles">
+        <h2>The Sunshine Campaign</h2>
+        <p>If I get voted for the cutest puppy on this fashion show I will make time to join another campaign to donate to.</p>
+    </div>
+
+
+
+</body></html>
